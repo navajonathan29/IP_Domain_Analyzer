@@ -73,88 +73,88 @@ The project utilizes multiple APIs, including AbuseIPDB and SecurityTrails, and 
 ### Steps
 
 1. Clone the repository:
-
+'''console
 git clone https://github.com/your-repo-name/IP-Analyzer.git
 cd IP-Analyzer
-
+'''console
 2. Install dependencies:
-
+'''console
 pip install -r requirements.txt
-
+'''console
 3. Set up API keys:
 
 Create a file named api_key1.json in the project root.
 
 Add the following content:
-
+'''python
 {
     "abuseipdb_key": "YOUR_ABUSEIPDB_KEY",
     "securityTrails_key": "YOUR_SECURITYTRAILS_KEY"
 }
-
-Run the application:
-
+'''
+4.Run the application:
+'''console
 streamlit run Main.py
+'''
+## How to Use
 
-How to Use
+### IP Analyzer
 
-1. IP Analyzer
+* Navigate to the "IP Analyzer" option from the sidebar.
 
-Navigate to the "IP Analyzer" option from the sidebar.
+* Enter a valid IP address (e.g., 209.85.128.181).
 
-Enter a valid IP address (e.g., 209.85.128.181).
+* View reports and visualizations:
 
-View reports and visualizations:
+  - Abuse confidence score and report details.
 
-Abuse confidence score and report details.
+  - Geolocation map.
 
-Geolocation map.
+  - Interactive CSV data table.
 
-Interactive CSV data table.
+  - Bar and line charts for additional insights.
 
-Bar and line charts for additional insights.
+### DNS Reputation Lookup
 
-2. DNS Reputation Lookup
+* Navigate to the "DNS Reputation" option from the sidebar.
 
-Navigate to the "DNS Reputation" option from the sidebar.
+* Enter a domain name (e.g., example.com).
 
-Enter a domain name (e.g., example.com).
+* Choose how many recent IPs to check using the slider.
 
-Choose how many recent IPs to check using the slider.
+* View:
 
-View:
+  - Abuse scores for each associated IP.
 
-Abuse scores for each associated IP.
+  - Geolocation of the most malicious IP.
 
-Geolocation of the most malicious IP.
-
-Screenshots
+## Screenshots
 
 Add screenshots here to show:
 
-The main dashboard.
+### The main dashboard.
 
-Example charts and geolocation map.
+### Example charts and geolocation map.
 
-Known Issues
+## Known Issues
 
-AbuseIPDB free tier limits the number of API calls per day.
+* AbuseIPDB free tier limits the number of API calls per day.
 
-SecurityTrails API may not return results for all domains.
+* SecurityTrails API may not return results for all domains.
 
-Geolocation may fail for certain IPs due to incomplete data.
+* Geolocation may fail for certain IPs due to incomplete data.
 
-Future Enhancements
+## Future Enhancements
 
-Integrate additional APIs for richer data insights.
+* Integrate additional APIs for richer data insights.
 
-Improve UI/UX with enhanced visualizations and interactivity.
+* Improve UI/UX with enhanced visualizations and interactivity.
 
-Add a database for storing historical query results.
+* Add a database for storing historical query results.
 
-Contributors
+## Contributors
 
-Jonathan Nava-Arenas
+* Jonathan Nava-Arenas [Github](https://github.com/navajonathan29)
 
-Kylie Caplin
+* Kylie Caplin: [Github](https://github.com/kyliecaplin)
 
