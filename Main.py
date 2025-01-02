@@ -1,3 +1,11 @@
+"""
+    Author : Jonathan Nava-Arenas , Kylie Caplin
+    Date   : 1/2/2025
+    Purpose: The purpose of this project is to help identify whether a domain name or ip address has malicious
+          history or not. This can be used in cases where you want to visit a website, but you're unsure of its
+          trustworthiness. Likewise, the Ip Analyzer can be used if you are receiving incoming traffic from foreign
+          ip addresses, and you want to validate them as trusted ip addresses (similar to a firewall).
+"""
 import pandas as pd
 import plotly.express as px
 import main_function
@@ -27,8 +35,9 @@ def fetch_abuseipdb_data(ip):
         return data
     else:
         st.error("Failed to fetch data from AbuseIPDB.")
-        st.write("Response status code:", response.status_code)
-        st.write("Response Text:", response.text)
+        print("----------------ERROR----------------")
+        print("Response status code:", response.status_code)
+        print("Response Text:", response.text)
         return None
 
 # Security Trails api implementation
@@ -66,8 +75,9 @@ def fetch_recent_ips(domain,limit):
                         return ip_addresses
     else:
         st.error("Failed to fetch data from SecurityTrails.")
-        st.write("Response status code:", response.status_code)
-        st.write("Response Text:",response.text)
+        print("----------------ERROR----------------")
+        print("Response status code:", response.status_code)
+        print("Response Text:",response.text)
         return None
 
 # This function gets the lat/long of a given ip
@@ -278,9 +288,7 @@ if option_sidebar == "DNS Reputation":
                                                                             "Interactive Table",
                                                                             "Bar Graph",
                                                                             "Line Chart"])
-            # TOOOOO DOOOOOO / COPY THE TABS FROM IP ANALYZER AND IMPLEMENT
-            # THEM INTO DNS LOOKUP AND SHOW THE LAT LONG OF THE HIGHEST SCORE IP
-            # TABS
+
             with map_region:
                 st.subheader("IP Geolocation")
                 if high_score_ip is not 0:
