@@ -73,29 +73,29 @@ The project utilizes multiple APIs, including AbuseIPDB and SecurityTrails, and 
 ### Steps
 
 1. Clone the repository:
-'''console
+```console
 git clone https://github.com/your-repo-name/IP-Analyzer.git
 cd IP-Analyzer
-'''console
+```
 2. Install dependencies:
-'''console
+```console
 pip install -r requirements.txt
-'''console
+```
 3. Set up API keys:
 
 Create a file named api_key1.json in the project root.
 
 Add the following content:
-'''python
+```python
 {
     "abuseipdb_key": "YOUR_ABUSEIPDB_KEY",
     "securityTrails_key": "YOUR_SECURITYTRAILS_KEY"
 }
-'''
+```
 4.Run the application:
-'''console
+```console
 streamlit run Main.py
-'''
+```
 ## How to Use
 
 ### IP Analyzer
@@ -154,7 +154,7 @@ Add screenshots here to show:
 
 ## Contributors
 
-* Jonathan Nava-Arenas [Github](https://github.com/navajonathan29)
+* Jonathan Nava-Arenas: [Github](https://github.com/navajonathan29)
 
 * Kylie Caplin: [Github](https://github.com/kyliecaplin)
 
