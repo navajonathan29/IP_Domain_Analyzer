@@ -38,7 +38,7 @@ The project utilizes multiple APIs, including AbuseIPDB and SecurityTrails, and 
 
   - Bar and line charts for phishing scores and report trends.
 <p align="left">
-  <img src="images/ip_analyzer_img.png" alt="Input Screen" width="75%"/>
+  <img src="images/ip_analyzer_img.png" alt="Input Screen" width="57%"/>
 </p>
 
 ### DNS Reputation Lookup:
@@ -51,7 +51,7 @@ The project utilizes multiple APIs, including AbuseIPDB and SecurityTrails, and 
 
 * Visualizations similar to the IP Analyzer option.
 <p align="left">
-  <img src="images/domain_img.png" alt="Input Screen" width="75%"/>
+  <img src="images/domain_img.png" alt="Input Screen" width="57%"/>
 </p>
 
 ## Tech Stack
