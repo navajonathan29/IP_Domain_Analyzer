@@ -16,6 +16,7 @@ import numpy as np
 # API handling
 api_key = main_function.read_from_file("api_key1.json")
 
+
 #--------------------API INTEGRATION--------------------------
 
 # AbuseIPDB API key
