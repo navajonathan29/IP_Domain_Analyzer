@@ -1,6 +1,6 @@
 # IP Analyzer/DNS Lookup
 <p align="center">
-  <img src="images/main_dash.png" alt="Input Screen" width="85%"/>
+  <img src="images/main_dash.png" alt="Input Screen" width="86%"/>
 </p>
 
 ## Project Overview
@@ -136,13 +136,6 @@ streamlit run Main.py
 
   - Geolocation of the most malicious IP.
 
-## Screenshots
-
-Add screenshots here to show:
-
-### The main dashboard.
-
-### Example charts and geolocation map.
 
 ## Known Issues
 
