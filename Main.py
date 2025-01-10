@@ -92,7 +92,7 @@ def fetch_geolocator(ip):
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~ MAIN ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Image header
 # (Source: https://rita-malaquias.tumblr.com/post/624628008985165824/pixel-dailies-tweet-here-theme-was-hacker )
-st.image("hacking-pixel-art.png",
+st.image("images/hacking-pixel-art.png",
          width = 500,
          caption="Photo by Rita Malaquias on Tumblr")
 
