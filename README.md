@@ -1,7 +1,8 @@
 # IP Analyzer/DNS Lookup
-![Domain Analysis](images/domain_img.png)
-![IP Analyzer](images/ip_analyzer_img.png)
-![Main Dashboard](images/main_dash.png)
+<p align="center">
+  <img src="images/main_dash.png" alt="Input Screen" width="85%"/>
+</p>
+
 ## Project Overview
 
 This project aims to analyze the reputation of IP addresses and domain names to determine if they have a history of malicious activity. It serves two primary purposes:
@@ -27,7 +28,6 @@ The project utilizes multiple APIs, including AbuseIPDB and SecurityTrails, and 
   - Last reported time.
 
   - Associated country and domain information.
-
 * Provides feedback messages (success, warning, error) based on abuse score.
 
 * Visualizations:
@@ -37,6 +37,9 @@ The project utilizes multiple APIs, including AbuseIPDB and SecurityTrails, and 
   - Geolocation map showing latitude and longitude of the IP.
 
   - Bar and line charts for phishing scores and report trends.
+<p align="left">
+  <img src="images/ip_analyzer_img.png" alt="Input Screen" width="47%"/>
+</p>
 
 ### DNS Reputation Lookup:
 
@@ -47,6 +50,9 @@ The project utilizes multiple APIs, including AbuseIPDB and SecurityTrails, and 
 * Calculates abuse scores for each IP and identifies the most malicious one.
 
 * Visualizations similar to the IP Analyzer option.
+<p align="left">
+  <img src="images/domain_img.png" alt="Input Screen" width="47%"/>
+</p>
 
 ## Tech Stack
 
