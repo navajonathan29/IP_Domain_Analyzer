@@ -1,5 +1,7 @@
 # IP Analyzer/DNS Lookup
-
+![Domain Analysis](images/domain_img.png)
+![IP Analyzer](images/ip_analyzer_img.png)
+![Main Dashboard](images/main_dash.png)
 ## Project Overview
 
 This project aims to analyze the reputation of IP addresses and domain names to determine if they have a history of malicious activity. It serves two primary purposes:
